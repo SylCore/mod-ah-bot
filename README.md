@@ -1,11 +1,10 @@
-# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
-## Mod-AHBOT
-- Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-ah-bot/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-ah-bot)
-
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Sylian1337/SylCore-WoTLK/refs/heads/master/sylcore.png" alt="logo" height="300" width="700" >
+</h1>
 
 ## Important notes
 
-You have to use at least AzerothCore commit [9adba48](https://github.com/azerothcore/azerothcore-wotlk/commit/9adba482c236f1087d66a672e97a99f763ba74b3).
+You have to use at least SylCore commit [2edf675](https://github.com/SylCore/SylCore-WoTLK/commit/2edf67537786260f055d2c8767a1b3d73a810e3b).
 
 If you use an old version of this module please update the table structure using this SQL statement:
 
@@ -15,7 +14,6 @@ ALTER TABLE `auctionhousebot` RENAME TO `mod_auctionhousebot`;
 
 ## Description
 
-An auction house bot for the best core: AzerothCore.
 This mod works by selling and bidding auctions in the factions auction house. It can be instructed to do both the operations independently.
 
 ## Installation
@@ -66,5 +64,7 @@ The sum of the percentage for these categories must always be 100, or otherwise 
 
 ## Credits
 
-- Ayase: ported the bot to AzerothCore
+(Keeping this as is, these are the original credits for the mod-ah-bot, I want to respect the author of this module!)
+
+- Ayase: ported the bot to AzerothCore.
 - Other contributors (check the contributors list)
